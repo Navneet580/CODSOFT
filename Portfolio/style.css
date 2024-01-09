@@ -69,7 +69,6 @@ nav ul li a:hover {
 
 /* body */
 
-
 .box {
 	background-color: rosybrown;
 }
@@ -79,6 +78,7 @@ nav ul li a:hover {
 .box-3,
 .box-4,
 .box-5,
+.box-6,
 .img {
 	display: flex;
 	align-items: center;
@@ -111,21 +111,37 @@ nav ul li a:hover {
 	border: 1px solid rebeccapurple;
 }
 
+#resume {
+	text-align: center;
+	padding: 20px 0;
+	background-color: rgb(236, 211, 127);
+	border: 1px solid orange;
+}
+
+#resume a {
+	text-decoration: none;
+	color: #2b00ff;
+	border: 1px solid #003cff;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
 section {
 	padding: 50px;
 }
 
 section h1 {
 	font-size: 36px;
-	margin-bottom: 20px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
 }
 
 section p {
 	font-size: 18px;
-	line-height: 1.5;
-	margin-bottom: 30px;
+	/* line-height: 1.5; */
+	margin-bottom: 15px;
 }
 
 footer {
